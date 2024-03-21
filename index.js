@@ -19,3 +19,12 @@ app.get('/status', (request, response) => {
 
     response.send(status);
 });
+
+
+app.get('/second', (request, response) => {
+    const status = {
+        Status: 'New Apis'
+    };
+
+    response.send(status);
+});
