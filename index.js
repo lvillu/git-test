@@ -28,3 +28,4 @@ app.get('/second', (request, response) => {
 
     response.send(status);
 });
+console.log("Hola");
